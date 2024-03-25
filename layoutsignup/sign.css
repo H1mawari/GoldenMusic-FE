@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(./images/header-image.png);
+}
+
+.header {
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 159px;
+    cursor: pointer;
+}
+
+.container {
+    width: 440px;
+    height: 630px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    margin: 0px auto;
+    margin-bottom: 5.8em;
+}
+
+.content {
+    padding:18px;
+}
+
+form {
+    width: 320px;
+    margin: 0px auto;
+}
+
+form input {
+    border: none;
+    width: 312px;
+    height: 49px;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px auto;
+    margin-top: 0.8em;
+    font-size: 16px;
+    background-color: #333333;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.for-got a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.for-got a:hover {
+    text-decoration: underline;
+}
+
+form input[type="submit"]
+{
+    background-color: #E50813;
+    margin-top: 2.2em;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d72323cc;
+}
+
+form input::placeholder  {
+    color: gray;
+    font-weight: 200px;
+}
+
+form input[type="checkbox"]{
+    height: 16px;
+    width: 25px;
+    accent-color: #737373;
+}
+
+form label {
+    color: #737373;
+    line-height: 2em;
+    display: inline;
+    font-size: 13.5px;
+}
+
+form a{
+    text-decoration: none;
+    float: right;
+    line-height: 3em;
+    font-size: 13.5px;
+}
+
+h1{
+    color: #fff;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.bottom{
+    width: 73%;
+    margin: 0px auto;
+    margin-top: 4em;
+}
+
+.bottom p{
+    color: #737373;
+    font-size: 14px;
+    text-align: left;
+}
+
+.sign-up {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sign-up:hover {
+    text-decoration: underline;
+}
+
+.text {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgba(0,0,0,0.7);
+    padding: 0.1em;
+}
+
+.footer div {
+    width: 80%;
+    height: 10em;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+.question{
+    text-decoration: none;
+}
+
+.question:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    padding: 2em;
+    display: inline;
+}
+
+.footer  ul li{
+    display: inline;
+    list-style: none;
+    color: #fff;
+    width: 20%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.footer a{
+    
+    color: #737373;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 2.5em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.footer ul li a  {
+    font-size: 15px;
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    color: #000;
+}
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
+}
